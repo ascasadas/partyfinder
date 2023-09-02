@@ -1,0 +1,198 @@
+
+
+    <!DOCTYPE html>
+  <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Party Finder</title>
+
+        <link rel="stylesheet" href="PF.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <script type='tel/javascript'>
+        $ (document).ready(function(){
+            $('#telefone').mask('(00) 0000-0000');
+        });
+        </script>
+
+    </head>
+
+    <body>
+    
+        <div class="cabecalho">     
+            
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="PARTY FINDER.png"></a>
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Home.png"></a>
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Party.png"></a>
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Find.png"></a>
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Login.png"></a>
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Register.png" href="../TELA_DE_LOGIN/login.html"></a> 
+
+            <a href="https://static.wikia.nocookie.net/b__/images/e/e3/BananSkin.png/revision/latest/scale-to-width-down/250?cb=20221014170727&path-prefix=bloons"><img src="Conta.png"></a>
+
+        </div>
+
+        <div class="titulo"><span> Party Finder </span></div>
+        <div class="fundodra"> <img src="https://s.zst.com.br/cms-assets/2021/05/rpg-de-mesa-capa.jpg"></div>
+        <!--
+        <table>
+            <tr>
+                <td><img src="PARTY FINDER.png"></td>
+
+                <td><img src="Home.png"> </td>
+
+                <td><img src="Party.png"> </td>
+
+                <td><img src="Find.png"> </td>
+
+                <td><img src="Login.png"> </td>
+
+                <td><img src="Register.png" href="../TELA_DE_LOGIN/login.html"> </td>
+
+                <td><img src="Conta.png"> </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="7"><img src="https://s.zst.com.br/cms-assets/2021/05/rpg-de-mesa-capa.jpg"
+                        style="object-fit: cover; max-width:100%;"></td>
+            </tr>
+
+            <tr>
+                <td colspan="7">
+
+                    <h1> </H1>
+
+                    <p>
+
+
+                    </p>
+
+                </td>
+
+            </tr>
+        </table>
+        -->
+
+        <div id="DivCadastroTotal">
+            <div id="LinhaPretaAmarela">
+                <div id="Decorção1Preta"></div>
+                <div id="Decorção2amarela"></div>
+                <div id="Decorção3Fundo"></div>
+            </div>
+
+            <div id="DivCentro">
+
+                <div id="DivGridEsquda">
+                    <div id="LinhaLaranjaEsquerda"></div>
+                    <div id="LinhaLaranjaEsquerda"></div>
+                    <div id="LinhaAmarelaEsquerda"></div>
+                    <div id="LinhaAmarelaEsquerda"></div>
+                    <div id="LinhaAmarelaEsquerda"></div>
+                    <div id="LinhaCinzaEsquerda"></div>
+                    <div id="LinhaAmarelaEsquerda"></div>
+                    <div id="LinhaCinzaEsquerda"></div>
+                    <div id="LinhaAmarelaEsquerda"></div>
+                    <div id="LinhaCinzaEsquerda"></div>
+                    <div id="LinhaCinzaEsquerda"></div>
+                </div>
+
+                <div class="DivPropa">
+
+                </div>
+                <div id="DivForms">
+                    <img src="pergaminho.png">
+                    <div id="ficha">
+                    <form method="POST" action="cadastro.php">
+
+                        <div class="boxatributo">
+                        <span class="atributo">Apelido do usuario</span><br>
+                        <div class="LinhaAtributo">
+
+                        <div class="atributosigla">NickName:</div>
+                        <input class="atributovariavel" type="text" name="login" id="login" required>
+                        
+                        </div></div>
+                        
+                        <div class="boxatributo">
+                            <span class="atributo">Nome verdadeiro</span><br>
+                            <div class="LinhaAtributo">
+                            <div class="atributosigla" >Nome:</div>
+                            <input class="atributovariavel" type="text" name="nome" id="nome" required>
+                        </div></div>
+
+                        <div class="boxatributo">
+                            <span class="atributo">Correio eletrônico</span><br>
+                            <div class="LinhaAtributo">
+                            <div class="atributosigla" >E-mail:</div>
+                            <input class="atributovariavel" type="text" name="email" id="email" required>
+                        </div></div>
+                        
+                        <div class="boxatributo">
+                            <span class="atributo">Telefone para contato</span><br>
+                            <div class="LinhaAtributo">
+                            <div class="atributosigla" >Telefone:</div>
+                            <input class="atributovariavel" type="tel" name="telefone" id="telefone" data-mask="(00) 0000-0000" data-mask-selectonfocus="true" />
+                        </div></div>
+
+                        <div class="boxatributo">
+                            <span class="atributo">Codigo</span><br>
+                            <div class="LinhaAtributo">
+                            <div class="atributosigla" >Senha:</div>
+                            <input class="atributovariavel" type="password" name="senha" id="senha" required>
+                        </div></div>
+                    
+
+                        <button onclick="window.location.href = 'termosdeuso.html';" id="TDU">Termos de uso</button>
+                        <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+                       
+                    </form>
+                    </div>
+
+                    </div>
+
+                    <!--
+                    <label for="confirmar-senha">Confirmar Senha:</label>
+                    <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+    
+                    <label for="opcoes">Deseja se cadastrar como:</label>
+        
+                    <label for="opcao1">Mestre de Mesa</label>
+                    <input type="checkbox" id="opcao1" name="opcao1" value="opcao1">
+    
+                    <label for="opcao2">Jogador</label>
+                    <input type="checkbox" id="opcao2" name="opcao2" value="opcao2">
+                    -->
+
+                <div id="DivGridDireita">
+                    <div id="LinhaCinzaDireita"></div>
+                    <div id="LinhaCinzaDireita"></div>
+                    <div id="LinhaCinzaDireita"></div>
+                    <div id="LinhaLaranjaDireita"></div>
+                    <div id="LinhaLaranjaDireita"></div>
+                    <div id="LinhaLaranjaDireita"></div>
+                    <div id="LinhaCinzaDireita"></div>
+                    <div id="LinhaLaranjaDireita"></div>
+                    <div id="LinhaCinzaDireita"></div>
+                    <div id="LinhaLaranjaDireita"></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="">
+
+
