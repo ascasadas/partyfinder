@@ -1,0 +1,439 @@
+@font-face{
+    font-family: rpg;
+    src: url(Font.ttf) format('truetype'); 
+}
+@font-face{
+    font-family: rpg2;
+    src: url(Font2.otf) format('truetype'); 
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+    background-color:transparent;
+    border-left: 2px black dashed;
+}
+::-webkit-scrollbar-thumb{ 
+    border: 3px black solid;
+    background-color: #FFD700; 
+ 
+} 
+
+/* Exemplo animacao
+    animation-iteration-count:unset;
+    animation-duration: 400ms;
+    animation-name: scrol;
+    opacity: 100%;
+
+
+@keyframes scrol {
+0%{
+    background-color: #FFD700; 
+}
+50%{
+    background-color: aquamarine; 
+}
+100%{
+    background-color: #FFD700; 
+     }
+}*/
+
+
+*
+{
+    color: white;
+}
+
+body 
+{
+    background-color: white; 
+}
+
+
+#LinhaPretaAmarela{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 7%;
+
+    display: flex;
+}
+#Decorção1Preta{position: relative;
+    background-color: black; 
+
+    flex-grow: 1;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+
+    z-index: 1;
+}
+#Decorção2amarela{position: relative;
+    background-color: #FFD700; 
+    flex-grow: 1;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    
+    margin-left: 0%;
+    z-index: 1;
+}
+#Decorção3Fundo{position: relative;
+    background-color: #2A2A2A; 
+    flex-grow: 2;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    
+    margin-left: 0%;
+    z-index: 1;
+
+}
+
+#DivCadastroTotal{
+    position: absolute;
+    background-color: #2A2A2A; 
+
+    top: 100%;
+    left: 0%;
+    
+    width: 100%;
+    height: 70%;
+    border: dashed #FFD700 0px;
+
+    z-index: 0;
+}
+
+#DivCentro{position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+
+#DivGridEsquda{position: relative;
+    display: grid;
+
+    flex-grow: 1;
+
+    width: 0%;
+    height: 90%;
+}
+#LinhaLaranjaEsquerda{position: relative;
+    background-color: #FFA500;
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaAmarelaEsquerda{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaCinzaEsquerda{position: relative;
+    background-color: #2A2A2A; 
+
+    width: 100%;
+    height: 100%;
+}
+
+
+#DivGridDireita{position: relative;
+    display: grid;
+
+    flex-grow: 1;
+
+    width: 0%;
+    height: 90%;
+}
+#LinhaLaranjaDireita{position: relative;
+    background-color: #FFA500;
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaAmarelaDireita{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaCinzaDireita{position: relative;
+    background-color: #2A2A2A; 
+
+    width: 100%;
+    height: 100%;
+}
+
+.DivPropa{
+    position: relative;
+    background-color: #2A2A2A; 
+
+    flex-grow: 45;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+
+    display: flex;
+}
+
+#DivForms{
+    position: relative;
+    background-color: #2A2A2A; 
+
+    flex-grow: 35;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+
+    display: flex;
+}
+
+#DivForms img{position: absolute;
+    bottom: 0%; 
+    left: 22%;
+    
+    width: 55%;
+    height: 105%;
+    
+    z-index:2;
+}
+
+#ficha{position: relative;
+    top: 10%; 
+    left: 32.5%;
+
+    width: 35%;
+    height: 90%;
+
+    display: grid;
+    grid-template-columns: 100%;
+
+    padding: 0%;
+    z-index: 2;
+
+}
+
+#ficha:hover{
+    /*transition: transform 1s;
+    transform: skew(-23deg,0deg);*/
+}
+
+.boxatributo{position: relative;
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 3%;
+}
+
+.atributo{position: relative;
+font-family: rpg;
+
+font-size: 1rem;
+color: black;
+
+}
+.LinhaAtributo{
+    /*border: lightgreen dashed 1px;*/
+
+    width: 100%;
+    height: 40%;
+
+    margin-top: 1%;
+
+    display: flex;
+    align-items: center;
+}
+
+.atributosigla{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2A2A2A;
+
+    font-family: rpg;
+
+    font-size: 1rem;
+
+    width: 35%;
+    height: 90%;
+
+    padding: 1%;
+
+    /*border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    */
+    text-align: right;
+    line-height: 65%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atributovariavel{
+    position: relative;
+    width: 35%;
+    height: 90%;
+
+    border: black 0.20vw solid;
+
+    padding: 1%;
+
+    background-color: wheat;
+}
+
+
+#TDU{
+    margin-top: 1.5%;
+
+    font-size: 1.3em;
+
+    position: relative;
+    color: #FFA500;
+    background-color: rgba(1, 1, 1, 0);
+    text-decoration: underline;
+    border: none;
+    cursor: help;
+    
+    font-family: rpg;
+
+    text-shadow: -1px -1px 5px #000, -1px 1px 5px #000, 1px -1px 5px #000, 1px 1px 5px #000;
+}
+
+#cadastrar{
+    margin-top: 0%;
+
+    font-size: 2rem;
+    
+    height: 100%;
+
+    position: relative;
+    color: #FFD700;
+    background-color: rgba(1, 1, 1, 0);
+    text-decoration: none;
+    border: none;
+    cursor: default;
+
+    font-family: rpg;
+
+    text-shadow: -3px -3px 5px #000, -3px 3px 5px #000, 3px -3px 5px #000, 3px 3px 5px #000;
+}
+
+
+.cabecalho {
+    position: fixed;
+    top: -1%;
+    left: -1%;
+    width: 101%;
+    height: 10em;
+    padding-bottom: 0.5em;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    border-bottom: solid 0.5em #2A2A2A;
+}
+
+.cabecalho img {
+    height: 100%;
+    max-height: 10em;
+}
+.titulo span{
+    color: #FFA500;
+    text-decoration: none;
+    border: none;
+    cursor: default;
+
+    font-family: rpg2;
+    font-size: 6em;
+
+    text-shadow: -3px -3px 5px #000, -3px 3px 5px #000, 3px -3px 5px #000, 3px 3px 5px #000;
+}
+
+.titulo{
+    position: absolute;
+    top: 10em;
+
+    padding-top: 1em;
+
+    background-color: #000;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: auto;
+
+    left: -1%;
+    width: 101%;
+    height: 10em;
+}
+
+.fundodra{
+    position: absolute;
+    top: 20em;
+    padding-bottom: 1%;
+
+    background-color: black;
+
+    padding-top: 0em;
+    height: 38em;
+
+    left: -1%;
+    width: 101%;
+
+    overflow: hidden;
+}
+.fundodra img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 200%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+table 
+{
+    table-layout: auto;
+    background-color: black;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
+input 
+{
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
