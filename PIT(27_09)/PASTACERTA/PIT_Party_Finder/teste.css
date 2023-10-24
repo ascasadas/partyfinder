@@ -1,0 +1,335 @@
+#loginfeito{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+z-index: 3;
+}
+#deletar{
+    position: absolute;
+    padding-top: 25%;
+    left: 50%;
+    z-index: 3;
+}
+
+#deletar button {
+    background-color: #FFA500;
+}
+
+*
+{
+    color: black;
+}
+
+body 
+{
+    background-color: white; 
+}
+
+#DivLoginTotal{
+    position: absolute;
+    background-color: #2A2A2A; 
+
+    top: 0%;
+    left: 0%;
+    
+    width: 100%;
+    height: 100%;
+    /*border: dashed #FFD700 0px;*/
+
+    z-index: 0;
+}
+
+#DivCentro{position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+#DivLogin{  
+    position: relative;
+    background-color: #2A2A2A; 
+
+    flex-grow: 55;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    /*border: dashed #FFD700 3px;*/
+
+    display: flex;
+}
+
+
+#DivLoginAjuste{
+    position: relative;
+    background-color: #2A2A2A; 
+
+    flex-grow: 20;
+
+    top: 0%;
+    left: 0%;
+
+    
+    width: auto;
+    height: auto;
+
+}
+
+#BarraLaranjaForms{
+    position: relative;
+    background-color: #FFA500; 
+
+    flex-grow: 1;
+
+    top: 0%;
+    left: 0%;
+    
+    width: auto;
+    height: 70%;
+
+}
+
+#DivFormsLogin{
+    position: relative;
+    background-color: #2A2A2A; 
+
+    flex-grow: 30;
+
+    top: 0%;
+    left: 0%;
+    
+    width: auto;
+    height: 100%;
+   /*border: dashed lime 3px;*/
+
+}
+
+#DivGridEsquda{position: relative;
+    display: grid;
+
+    flex-grow: 1;
+
+    width: 0%;
+    height: 90%;
+}
+#LinhaLaranjaEsquerda{position: relative;
+    background-color: #FFA500;
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaAmarelaEsquerda{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaCinzaEsquerda{position: relative;
+    background-color: #2A2A2A; 
+
+    width: 100%;
+    height: 100%;
+}
+
+
+#DivGridDireita{position: relative;
+    display: grid;
+
+    flex-grow: 1;
+
+    width: 0%;
+    height: 90%;
+}
+#LinhaLaranjaDireita{position: relative;
+    background-color: #FFA500;
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaAmarelaDireita{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 100%;
+}
+#LinhaCinzaDireita{position: relative;
+    background-color: #2A2A2A; 
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#LinhaPretaAmarela{position: relative;
+    background-color: #FFD700; 
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+}
+#DecorçãoPreta{position: relative;
+    background-color: black; 
+
+    flex-grow: 1;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+
+    z-index: 1;
+}
+#Decorçãoamarela{position: relative;
+    background-color: #FFD700; 
+    flex-grow: 3;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    
+    margin-left: 0%;
+    z-index: 1;
+}
+#DecorçãoFundo{position: relative;
+    background-color: #2A2A2A; 
+    flex-grow: 4;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    
+    margin-left: 0%;
+    z-index: 1;
+}
+#DecorçãoLaranja{position: relative;
+    background-color: #FFA500; 
+    flex-grow: 1;
+
+    top: 0%;
+    left: 0%;
+    
+    width: 0%;
+    height: 100%;
+    
+    margin-left: 0%;
+    z-index: 1;
+}
+
+
+table 
+{
+    table-layout: auto;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
+input 
+{
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#formulario{position: relative;
+    right: 0%;
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+#btnRecSenha {position: relative;
+
+    box-shadow: 0px 0px 15px white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    height: 5%;
+    width: 15%;
+
+    top: 9%;
+    right: 0%;
+
+}
+
+#btnCadastrar {position: relative;
+
+    box-shadow: 0px 0px 15px white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    height: 5%;
+    width: 15%;
+
+    top: 3%;
+    right: 0%;
+
+}
+#btnentrar{
+    box-shadow: 0px 0px 15px white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    height: 5%;
+    width: 15%;
+    
+    top: 55%;
+    right: 0%;
+}
+#logout{
+    position: absolute;
+
+    
+        height: 10%;
+        width: 15%;
+    
+        top: 50%;
+        right: 50%;
+        z-index: 3;
+    
+    }
+    #logout button {
+        background-color: #FFA500;
+
+    }
+
+#deletar{
+    position: relative;
+
+    
+        height: 10%;
+        width: 15%;
+    
+        top: 50%;
+        right: 50%;
+        z-index: 3;
+}
+
+/* Login */
